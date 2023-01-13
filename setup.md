@@ -4,11 +4,14 @@ title: Setup
 root: .
 ---
 
+
+## Some files you will need
+
 You need to download some files to follow this lesson:
 
-1. Download [data-shell.zip]({{ page.root }}/data/data-shell.zip) and move the file to your Desktop.
-2. Unzip/extract the file . You should end up with a new folder called **data-shell** on your Desktop.
-3. Open a terminal and type `cd`, then press the Enter key. That last step will make sure you start with your home folder as your working directory.
+1. Unzip/extract the file . You should end up with a new folder called **data-shell**.
+2 .Open a terminal and type `cd`, then press the Enter key. That last step will make sure you start with your home folder as your working directory.
+3. Download [data-shell.zip]({{ page.root }}/data/data-shell.zip) and move the file to a location you can access in your bash environment.
 
 In the lesson, you will find out how to access the data in this folder.
 
@@ -34,8 +37,7 @@ If none of the options below address your circumstances, try an online search fo
 
 
 > ## Mac OS X
-> For a Mac computer, the default Unix Shell is Bash,
-> and it is available via the Terminal Utilities program within your Applications folder.
+> For a Mac computer, the default Unix Shell is either `bash`  or  `zsh` and it is available via the Terminal Utilities program within your Applications folder.
 >
 > To open Terminal, try one or both of the following:
 > * Go to your Applications. Within Applications, open the Utilities folder. Locate Terminal in the Utilities folder and open it.
