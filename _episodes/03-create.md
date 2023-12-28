@@ -74,7 +74,7 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 ~~~
 {: .output}
 
-> ## Two ways of doing the same thing
+> ## There are often multiple ways of doing the same thing
 > Using the shell to create a directory is no different than using a file explorer.
 > If you open the current directory using your operating system's graphical file explorer,
 > the `thesis` directory will appear there too.
@@ -82,7 +82,7 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 > the files and directories themselves are the same.
 {: .callout}
 
-> ## Good names for files and directories
+> ## Only use good names for files and directories
 >
 > Complicated names of files and directories can make your life painful
 > when working on the command line. Here we provide a few useful
@@ -108,7 +108,7 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 >
 > If you need to refer to names of files or directories that have whitespace
 > or another non-alphanumeric character, you should surround the name in quotes (`""`).
-{: .callout}
+{: .idea}
 
 Since we've just created the `thesis` directory, there's nothing in it yet:
 
@@ -127,7 +127,7 @@ $ nano draft.txt
 ~~~
 {: .language-bash}
 
-> ## Which Editor?
+> ## Pick a text editor and get good at it
 >
 > When we say, "`nano` is a text editor," we really do mean "text": it can
 > only work with plain character data, not tables, images, or any other
@@ -259,11 +259,11 @@ $ ls
 > The Unix shell doesn't have a trash bin that we can recover deleted
 > files from (though most graphical interfaces to Unix do).  Instead,
 > when we delete files, they are unhooked from the file system so that
-> their storage space on disk can be recycled. Tools for finding and
+> their storage space on disk can be recycled. __Once they are gone, they are gone for good.__ Tools for finding and
 > recovering deleted files do exist, but there's no guarantee they'll
 > work in any particular situation, since the computer may recycle the
 > file's disk space right away.
-{: .callout}
+{: .warning}
 
 Let's re-create that file
 and then move up one directory to `/Users/nelle/Desktop/data-shell` using `cd ..`:

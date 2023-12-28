@@ -1,12 +1,13 @@
 ---
 title: "Introducing the bash shell"
-teaching: 10
+teaching: 15
 exercises: 5
 questions:
 - "What is a command shell and why would I use one?"
 objectives:
 - "Explain how the shell relates to the keyboard, the screen, the operating system, and users' programs."
 - "Explain when and why command-line interfaces should be used instead of graphical interfaces."
+- "Understand the context of the problem on which this lesson is based."
 keypoints:
 - "A shell is a program whose primary purpose is to read commands and run other programs."
 - "A command-line call contain command, flags, and arguments. These are identifiable."
@@ -205,7 +206,7 @@ being able to interact with the shell is becoming a necessary skill.
 We can build on the command-line skills covered here
 to tackle a wide range of scientific questions and computational challenges.
 
-## Nelle's Pipeline: Starting Point
+## This lesson's problem: Nelle's pipeline
 
 Nelle Nemo, a marine biologist,
 has just returned from a six-month survey of the
