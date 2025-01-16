@@ -1,5 +1,6 @@
 ---
 title: "Pipes and Filters"
+start: "yes"
 teaching: 25
 exercises: 10
 questions:
