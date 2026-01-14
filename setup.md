@@ -7,7 +7,7 @@ root: .
 
 ## Ensure you have a working shell
 
-"The shell" is what we call a program that enables us to send commands to the computer and receive output. It is also referred to as the terminal or command line. There are many different programs that can operate as a shell. We will use the `bash` shell (though if you are using a Mac, you may use a shell called `zsh`).
+"The shell" is what we call a program that enables us to send commands to the computer and receive output. It is also referred to as the terminal or command line. There are many different programs that can operate as a shell. We will use the `bash` shell (though if you are using a Mac, you may be using a shell called `zsh`).
 
 ### The instructions below should get you a working shell running on your own laptop or desktop computer.
 
@@ -20,18 +20,23 @@ root: .
 > sticking to the default (Ubuntu). To install WSL and the default Ubuntu distribution, take the following steps:
 > 
 > 1. find the PowerShell application and open it _in Administrator mode_ (right click on the application icon to run in Administrator mode)
-> 2. From the PowerShell command line, type `wsl --install`. Wait for the command to finish, then type `wsl -l -v` to see what Linux distributions have been installed. The default at time of writing is Ubuntu 22.04 under WSL 2.
+> 2. From the PowerShell command line, type `wsl --install`. Wait for the command to finish, then type `wsl -l -v` to see what Linux distributions have been installed. The default at time of writing is Ubuntu 24.04 under WSL 2.
+>  - Note that you will need to set a default user. I generally use "gtk", but that's
+>    me; pick a short name of only letters for your name or initials.
+>  - When you set the default user, you will be asked to enter a password. You will
+>    also not see *anything* when you type the password, not even `******`, and
+>    you'll have to type it twice. Be sure to remember your password.
 > 3. From the start menu, type "Linux", or "Ubuntu", and you should have a Linux distribution available to run. The first time you launch it might be a bit slow.
 > 
 >Additional references are below.
 > #### Reference
 > * [Git for Windows](https://git-for-windows.github.io/)
-> * [Using the Windows 10 Bash Shell](https://www.howtogeek.com/265900/everything-you-can-do-with-windows-10s-new-bash-shell/)
+> * [Getting started with Linux and Bash](https://learn.microsoft.com/en-us/windows/wsl/tutorials/linux)
 {: .windows}
 
 
 > ## Mac OS X users
-> For Mac computer users, the default Unix Shell is either `bash`  or  `zsh` and it is available via the Terminal Utilities program within your Applications folder.
+> For Mac computer users, the default shell is either `bash`  or  `zsh` and it is available via the Terminal Utilities program within your Applications folder.
 >
 > To open Terminal, try one or both of the following:
 > * Go to your Applications. Within Applications, open the Utilities folder. Locate Terminal in the Utilities folder and open it.

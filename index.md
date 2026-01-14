@@ -14,10 +14,13 @@ Use of the shell is fundamental to using a wide range of other powerful tools
 and computing resources (including "high-performance computing" supercomputers).
 These lessons will start you on a path towards using these resources effectively.
 
-> ## Day 1 in class; Day 2 is homework
-> If you are new to the Linux shell, this workshop is necessary. We have set the schedule based on the practical schedule 
-> in LS Lab 5. Our expectation is that we will finish only part of the workshop in class, but that you should complete the rest of the workshop on your own time.  That part is listed in
-> the workshop syllabus as "Day 2".
+> ## First session in class; second session is on your own time.
+>
+> If you are new to the Linux shell, this workshop is necessary. We have set the
+> schedule based on the practical schedule in LS Lab 5. Our expectation is that we
+> will finish only part of the workshop in class, but that you should complete the
+> rest of the workshop on your own time.  That part is listed in
+> the workshop syllabus as "Session 2".
 {: .callout}
 
 
